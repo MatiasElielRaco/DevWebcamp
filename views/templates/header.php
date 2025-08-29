@@ -23,7 +23,7 @@
                 </h1>
             </a>
 
-            <p class="header__texto">Octubre 5-6 - 2023</p>
+            <p class="header__texto">Octubre 5-6 - <?php echo date("Y"); ?></p>
             <p class="header__texto header__texto--modalidad">En Línea - Presencial</p>
 
             <a href="<?php echo is_auth() ? "/finalizar-registro" : "/registro"?>" class="header__boton">Comprar Pase</a>
